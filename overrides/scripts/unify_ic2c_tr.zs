@@ -51,7 +51,6 @@ furnace.addRecipe(<ic2:itemmisc:251>, <ic2:itemmisc:356>);
 
 // IC2C Cell => TR Cells
 
-recipes.replaceAllOccurences(<ic2:itemcellempty>, <techreborn:dynamiccell>);
 recipes.addShapeless("empty_cell_ic2_to_tr", <techreborn:dynamiccell>, [
 	<ic2:itemcellempty>
 ]);
