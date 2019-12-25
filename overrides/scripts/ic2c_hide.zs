@@ -8,8 +8,6 @@ mods.jei.JEI.hide(<ic2:blockcompactedgenerator:6>); // Small Electric Flux Gener
 mods.jei.JEI.hide(<ic2:blockcompactedgenerator:7>); // Medium Electric Flux Generator (MV)
 mods.jei.JEI.hide(<ic2:blockcompactedgenerator:8>); // Big Electric Flux Generator (HV)
 
-mods.jei.JEI.hide(<ic2:blockmachinelv:15>); // Stone Macerator
-
 mods.jei.JEI.hide(<ic2:blockmachinehv:1>); // Mass Fabricator
 mods.jei.JEI.hide(<ic2:blockmachinehv:3>); // Uranium Enricher
 mods.jei.JEI.hide(<ic2:blockmachinehv:5>); // Plasmifier
