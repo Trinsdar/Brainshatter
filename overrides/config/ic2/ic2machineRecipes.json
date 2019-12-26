@@ -240,7 +240,7 @@
   "item.techreborn.dust.thorium_580583548": true,
   "item.techreborn.dust.plutonium_1824516829": true,
   "item.techreborn.dust.zinc_-251312193": true,
-  "item.bluepower:teslatite_dust_-804244050": true
+  "item.bluepower:teslatite_dust_-804244050": false
  },
  "extractor": {
   "item.coal_764578481": true,
@@ -1152,7 +1152,10 @@
   "item.gtclassic.ingotRedAlloy": true,
   "item.gtclassic.ingotRedAlloy_1": true,
   "item.gtclassic.ingotMagnalium": true,
-  "item.gtclassic.ingotBatteryAlloy": true
+  "item.gtclassic.ingotBatteryAlloy": true,
+  "item.bluepower:silicon_boule": true,
+  "item.bluepower:red_doped_wafer": true,
+  "item.bluepower:blue_doped_wafer": true
  },
  "gt.assemblingmachine": {
   "tile.torch": true,

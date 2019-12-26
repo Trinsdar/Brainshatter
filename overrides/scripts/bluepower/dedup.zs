@@ -1,16 +1,21 @@
 // Removes unused parts of ProjectRed
 
-mods.jei.JEI.hide(<projectred-core:resource_item:100>); // Copper Ingot
-mods.jei.JEI.hide(<projectred-core:resource_item:101>); // Tin Ingot
-mods.jei.JEI.hide(<projectred-core:resource_item:102>); // Silver Ingot
+mods.jei.JEI.hide(<bluepower:copper_ingot>); // Copper Ingot
+mods.jei.JEI.hide(<bluepower:zinc_ingot>); // Zinc Ingot
+mods.jei.JEI.hide(<bluepower:silver_ingot>); // Silver Ingot
+mods.jei.JEI.hide(<bluepower:brass_ingot>); // Brass Ingot
+mods.jei.JEI.hide(<bluepower:tungsten_carbide>); // Tungsten Carbide Ingot
+mods.jei.JEI.hide(<bluepower:red_alloy_ingot>); // Red Alloy Ingot
+mods.jei.JEI.hide(<bluepower:tungsten_ingot>); // Tungsten Ingot
+mods.jei.JEI.hide(<bluepower:tungsten_nugget>); // Tungsten Nugger
+mods.jei.JEI.hide(<bluepower:zincplate>); // Zinc Plate
 
 // Note: Red / Blue Alloy changed in alloys.zs
 
-mods.jei.JEI.removeAndHide(<projectred-core:resource_item:200>); // Ruby
-mods.jei.JEI.removeAndHide(<projectred-core:resource_item:201>); // Sapphire
-mods.jei.JEI.removeAndHide(<projectred-core:resource_item:202>); // Peridot
+mods.jei.JEI.removeAndHide(<bluepower:ruby_gem>); // Ruby
+mods.jei.JEI.removeAndHide(<bluepower:sapphire_gem>); // Sapphire
 
-// Note: Sandy Coal, Red/Blue alloy bases, Silicon changed in alloys.zs
+// Note: Silicon changed in alloys.zs
 
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:600>); // Null-Logic Routing Chip
 mods.jei.JEI.removeAndHide(<projectred-expansion:machine2:0>); // Block Breaker

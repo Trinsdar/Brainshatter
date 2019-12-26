@@ -14,3 +14,7 @@ mods.gtclassic.AlloySmelter.addRecipe(<bluepower:red_doped_wafer>, <bluepower:si
 
 // Electro Silicon
 mods.gtclassic.AlloySmelter.addRecipe(<bluepower:blue_doped_wafer>, <bluepower:silicon_wafer>, <ore:dustTeslatite>*4);
+
+mods.gtclassic.AlloySmelter.addRecipe(<bluepower:sapphire_glass>, <ore:gemSapphire>, <ore:blockGlass> * 4);
+
+mods.gtclassic.AlloySmelter.addRecipe(<bluepower:reinforced_sapphire_glass>, <bluepower:sapphire_glass>, <ore:obsidian>);

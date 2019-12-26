@@ -1,7 +1,7 @@
 // Makes Electrotine yield similar quantities as Redstone in ore processing.
 
-val ore = <projectred-exploration:ore:6>;
-val dust = <projectred-core:resource_item:105>;
+val ore = <bluepower:teslatite_ore>;
+val dust = <bluepower:teslatite_dust>;
 
 // Redstone Furnace => 4 [Replace]
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(ore);
@@ -15,7 +15,7 @@ mods.thermalexpansion.Pulverizer.addRecipe(dust*6, ore, 4000);
 mods.thermalexpansion.InductionSmelter.addRecipe(dust*8, ore, <minecraft:sand>, 4000);
 
 // Grinder => 8
-mods.techreborn.grinder.addRecipe(dust*8, ore, 270, 3);
+mods.ic2.Macerator.addRecipe(dust*8, ore);
 
 // Industrial Grinder => 10 (+2 tiny piles diamond dust)
-mods.techreborn.industrialGrinder.addRecipe(dust*10, <techreborn:smalldust:16>*2, null, null, ore, null, <fluid:water>*1000, 100, 64);
+mods.gtclassic.IndustrialGrinder.addRecipe([dust*10, <gtclassic:diamond_dustsmall>*2], ore, <fluid:water>*1000, 6400);
