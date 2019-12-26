@@ -1571,5 +1571,10 @@
  "shaped_item.thermalfoundation.material.plateEnderium_2113113478": true,
  "shaped_item.plate.thaumium_1176836966": true,
  "shaped_item.plate.void_-2016893875": true,
- "shaped_tile.blockCropHarvester_927183663": true
+ "shaped_tile.blockCropHarvester_927183663": true,
+ "shapeless_item.gtclassic.dustIridium_1902251439": true,
+ "shapeless_item.techreborn.dust.uranium_1823455613": true,
+ "shapeless_item.techreborn.dust.thorium_-1257625167": true,
+ "shapeless_item.techreborn.dust.plutonium_-1350400980": true,
+ "shaped_item.techreborn.plate.advanced_alloy_-2133937739": true
 }
