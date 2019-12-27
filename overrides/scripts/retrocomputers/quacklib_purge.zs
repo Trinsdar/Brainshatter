@@ -24,9 +24,6 @@ mods.jei.JEI.removeAndHide(<quacklib:component:20>); // Red Alloy Ingot
 mods.jei.JEI.removeAndHide(<quacklib:component:21>); // Blue Alloy Ingot
 mods.jei.JEI.removeAndHide(<quacklib:component:22>); // Brass Ingot
 mods.jei.JEI.removeAndHide(<quacklib:component:23>); // Nikolite
-mods.jei.JEI.removeAndHide(<quacklib:component:24>); // Fine Copper Wire
-mods.jei.JEI.removeAndHide(<quacklib:component:26>); // Copper Coil
-mods.jei.JEI.removeAndHide(<quacklib:component:27>); // Motor
 mods.jei.JEI.removeAndHide(<quacklib:wrench>); // Wrench
 
 mods.jei.JEI.removeAndHide(<quacklib:nikolite_ore>); // Nikolite Ore

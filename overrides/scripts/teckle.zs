@@ -27,9 +27,9 @@ recipes.addShaped("item_tube_brass", <teckle:tube.item>*8, [
 
 mods.jei.JEI.removeAndHide(<teckle:alloyfurnace>);
 
-val redSilicon = <projectred-core:resource_item:320>;
-val electroSilicon = <projectred-core:resource_item:342>;
-val electrotineAlloyIngot = <projectred-core:resource_item:104>;
+val redSilicon = <bluepower:red_doped_wafer>;
+val electroSilicon = <bluepower:blue_doped_wafer>;
+val electrotineAlloyIngot = <bluepower:blue_alloy_ingot>;
 
 recipes.remove(<teckle:filter>);
 recipes.addShaped("teckle_filter", <teckle:filter>, [
@@ -66,12 +66,12 @@ recipes.addShaped("blue_alloy_block", <teckle:compacted_metal:2>, [
 
 mods.techreborn.alloySmelter.removeRecipe(<teckle:ingot:1>);
 recipes.remove(<teckle:ingot:1>);
-recipes.addShapeless("red_alloy_ingot_from_block", <projectred-core:resource_item:103>*9, [
+recipes.addShapeless("red_alloy_ingot_from_block", <gtclassic:redalloy_ingot>*9, [
 	<teckle:compacted_metal:1>
 ]);
 
 recipes.remove(<teckle:ingot:2>);
-recipes.addShapeless("blue_alloy_ingot_from_block", <projectred-core:resource_item:104>*9, [
+recipes.addShapeless("blue_alloy_ingot_from_block", <bluepower:blue_alloy_ingot>*9, [
 	<teckle:compacted_metal:2>
 ]);
 

@@ -1,10 +1,15 @@
 // Purpose: Make the RetroComputers recipes more like old RedPower 2.
 
-val redSilicon = <projectred-core:resource_item:320>;
-val orangeIllumar = <projectred-core:resource_item:501>;
-val copperCoil = <projectred-core:resource_item:400>;
-val goldCoil = <projectred-core:resource_item:402>;
-val motor = <projectred-core:resource_item:410>;
+val redSilicon = <bluepower:red_doped_wafer>;
+val orangeIllumar = <bluepower:lumar:1>;
+val copperCoil = <quacklib:component:26>;
+val copperWire = <quacklib:component:24>;
+val goldIngot = <ore:ingotGold>;
+val motor = <quacklib:component:27>;
+
+recipes.addShaped("motor", <quacklib:component:27>, [[<ore:ingotIron>, <quacklib:component:26>, <ore:ingotIron>], [<ore:ingotIron>, <quacklib:component:26>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotBlueAlloy>, <ore:ingotIron>]]);
+recipes.addShaped("copper_coil", <quacklib:component:26>, [[copperWire, <minecraft:iron_bars>, copperWire], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [copperWire, <minecraft:iron_bars>, copperWire]]);
+recipes.addShapeless("copper_wire", <quacklib:component:24>, [<ore:ingotCopper>, <bluepower:diamond_drawplate>]);
 
 recipes.remove(<retrocomputers:terminal>);
 recipes.addShaped("retrocomputers_terminal", <retrocomputers:terminal>, [
@@ -29,16 +34,16 @@ recipes.addShaped("retrocomputers_port", <retrocomputers:redstone_port_analog>, 
 
 recipes.remove(<retrocomputers:ribbon_cable>);
 recipes.addShaped("retrocomputers_ribbon_cable", <retrocomputers:ribbon_cable>*8, [
-	[copperCoil],
-	[copperCoil],
-	[copperCoil]
+	[copperWire],
+	[copperWire],
+	[copperWire]
 ]);
 
 recipes.remove(<retrocomputers:backplane>);
 recipes.addShaped("retrocomputers_backplane", <retrocomputers:backplane>, [
-	[<minecraft:iron_bars>, copperCoil, <minecraft:iron_bars>],
-	[<minecraft:iron_bars>, goldCoil, <minecraft:iron_bars>],
-	[<minecraft:iron_bars>, copperCoil, <minecraft:iron_bars>]
+	[<minecraft:iron_bars>, copperWire, <minecraft:iron_bars>],
+	[<minecraft:iron_bars>, goldIngot, <minecraft:iron_bars>],
+	[<minecraft:iron_bars>, copperWire, <minecraft:iron_bars>]
 ]);
 
 recipes.remove(<retrocomputers:disk_drive>);
@@ -64,7 +69,7 @@ recipes.addShaped("retrocomputers_radio", <retrocomputers:radio>, [
 
 recipes.remove(<retrocomputers:cpu>);
 recipes.addShaped("retrocomputers_cpu", <retrocomputers:cpu>, [
-	[<minecraft:iron_bars>, goldCoil, <minecraft:iron_bars>],
+	[<minecraft:iron_bars>, goldIngot, <minecraft:iron_bars>],
 	[redSilicon, <minecraft:redstone_block>, redSilicon],
-	[<minecraft:iron_bars>, goldCoil, <minecraft:iron_bars>]
+	[<minecraft:iron_bars>, goldIngot, <minecraft:iron_bars>]
 ]);

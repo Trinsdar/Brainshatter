@@ -117,6 +117,6 @@ val dustSaltpeter = <thermalfoundation:material:772>;
 val potassiumCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidpotassium", Amount: 1000}});
 val nitrogendioxideCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrogendioxide", Amount: 1000}});
 
-mods.techreborn.chemicalReactorRecipe.addRecipe(dustSaltpeter*5, potassiumCell, nitrogendioxideCell, 235, 32);
+mods.techreborn.chemicalReactor.addRecipe(dustSaltpeter*5, potassiumCell, nitrogendioxideCell, 235, 32);
 
 // TODO: andesite/diorite/granite dust
