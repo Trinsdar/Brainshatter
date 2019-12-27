@@ -2,7 +2,7 @@
 
 // Electrotine Alloy Ingot
 val silver = <ore:ingotSilver> | <ore:dustSilver>;
-mods.gtclassic.AlloySmelter.addRecipe(<bluepower:blue_alloy_ingot>, silver, <ore:dustTeslatite>*4, 200, 16);
+mods.gtclassic.AlloySmelter.addRecipe(<bluepower:blue_alloy_ingot>, silver, <ore:dustTeslatite>*4);
 
 
 // Silicon Boule
