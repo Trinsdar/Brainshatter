@@ -11,6 +11,7 @@ recipes.remove(<teckle:siliconwafer:0>);
 mods.jei.JEI.removeAndHide(<teckle:siliconwafer:1>);
 mods.jei.JEI.removeAndHide(<teckle:siliconwafer:2>);
 
+mods.jei.JEI.removeAndHide(<teckle:siliconwafer>);
 mods.jei.JEI.removeAndHide(<teckle:ingot:0>);
 mods.jei.JEI.removeAndHide(<teckle:ingot:1>);
 mods.jei.JEI.removeAndHide(<teckle:ingot:2>);
