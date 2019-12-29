@@ -1094,7 +1094,8 @@
   "item.gtclassic.test_tube_14": true,
   "item.gtclassic.test_tube_15": true,
   "item.gtclassic.test_tube_16": true,
-  "item.gtclassic.dustSilicon_2": true
+  "item.gtclassic.dustSilicon_2": true,
+  "item.gtclassic.test_tube_17": true
  },
  "gt.vacuumfreezer": {
   "item.gtclassic.ingotTungsten": true,
@@ -1186,7 +1187,8 @@
  "gt.distillationtower": {
   "fluid.diesel": true,
   "fluid.diesel_1": true,
-  "fluid.gasoline": true
+  "fluid.gasoline": true,
+  "fluid.bio.ethanol": true
  },
  "gt.alloysmelter": {
   "item.itemIngotBronze": true,
@@ -1259,7 +1261,8 @@
   "item.gtclassic.test_tube_8": true,
   "item.gtclassic.test_tube_9": true,
   "item.sulphur": true,
-  "item.gtclassic.test_tube_10": true
+  "item.gtclassic.test_tube_10": true,
+  "item.thermalfoundation.material.dustNiter": true
  },
  "gt.primitiveblastfurnace": {
   "item.itemIngotAdvIron": true,

@@ -1,16 +1,7 @@
 // Purpose: Make TechReborn use some IC2C stuff, such as cables.
 
-val ulc_cable = <ic2:itemcable:10>;
 val copper_cable_uninsulated = <ic2:itemcable:0>;
 val copper_cable = <ic2:itemcable:1>;
-val gold_cable_2x = <ic2:itemcable:4>;
-val hv_cable_4x = <ic2:itemcable:8>;
-val bronze_cable_2x = <ic2:itemcable:15>;
-val ic2_coolant_10k = <ic2:itemheatstorage:0>;
-val ic2_coolant_30k = <ic2:itemheatstorage:1>;
-val ic2_coolant_60k = <ic2:itemheatstorage:2>;
-val tr_coolant_60k_nak = <techreborn:part:10>;
-val tr_coolant_60k_helium = <techreborn:part:7>;
 
 // Remove some redundant smelting recipes
 
