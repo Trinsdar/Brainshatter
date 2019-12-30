@@ -147,7 +147,6 @@ mods.jei.JEI.removeAndHide(<techreborn:wire_mill>);
 mods.jei.JEI.removeAndHide(<techreborn:wind_mill>);
 mods.jei.JEI.removeAndHide(<techreborn:rubber_leaves>);
 mods.jei.JEI.removeAndHide(<techreborn:rubber_sapling>);
-#priority 1
 
 mods.jei.JEI.removeAndHide(<techreborn:reinforced_glass>);
 mods.jei.JEI.removeAndHide(<techreborn:ev_transformer>);
@@ -221,7 +220,7 @@ mods.techreborn.distillationTower.removeAll();
 mods.techreborn.fusionReactor.removeAll();
 mods.techreborn.implosionCompressor.removeAll();
 mods.techreborn.industrialElectrolyzer.removeAll();
-mods.techreborn.industrialGrinder.removeAll();
+
 mods.techreborn.industrialSawmill.removeAll();
 mods.techreborn.plateBendingMachine.removeAll();
 mods.techreborn.solidCanningMachine.removeAll();

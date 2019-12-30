@@ -31,8 +31,6 @@ mods.jei.JEI.removeAndHide(<quacklib:alloy_furnace>); // Alloy Furnace
 mods.jei.JEI.removeAndHide(<quacklib:multiblock_test>); // Multiblock Test
 
 <ore:dustNikolite>.remove(<quacklib:component:23>);
-mods.techreborn.grinder.removeRecipe(<quacklib:component:23>);
-mods.techreborn.alloySmelter.removeRecipe(<quacklib:component:20>);
 furnace.setFuel(<quacklib:multiblock_test>, 0);
 
 <ore:ingotRedAlloy>.remove(<quacklib:component:20>);

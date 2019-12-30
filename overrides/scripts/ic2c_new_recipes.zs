@@ -1,7 +1,7 @@
 
 // Modify | 2x Cracked Reinforced Stone
 
-mods.techreborn.grinder.addRecipe(<ic2:blockutility:6>, <ic2:blockutility:2>, 300, 20); // Reinforced Stone => Cracked Reinforced Stone
+mods.ic2.Macerator.addRecipe(<ic2:blockutility:6>, <ic2:blockutility:2>); // Reinforced Stone => Cracked Reinforced Stone
 
 // Remove | Clear Reinforced Glass
 // Modify | Iridium Stone
@@ -10,7 +10,7 @@ val reinforcedStone = <ic2:blockutility:2>;
 val denseCopperPlate = <ic2:itemmisc:259>;
 recipes.addShaped("iridium_stone", <ic2:blockpersonal:8>, [
 	[reinforcedStone, reinforcedStone, reinforcedStone],
-	[reinforcedStone, <ore:plateIridiumAlloy>, reinforcedStone],
+	[reinforcedStone, <ic2:itemmisc:258>, reinforcedStone],
 	[reinforcedStone, reinforcedStone, reinforcedStone]
 ]);
 
@@ -34,25 +34,25 @@ recipes.addShapeless("basic_steam_turbine", <ic2:blockgenerator:7>, [
 // Modify | Solar Turbine
 
 recipes.addShaped("solar_turbine", <ic2:blockgenerator:9>, [
-	[<ore:plateAdvancedAlloy>, <ic2:blockgenerator:3>, <ore:plateAdvancedAlloy>],
+	[<ic2:itemmisc:257>, <ic2:blockgenerator:3>, <ic2:itemmisc:257>],
 	[<buildcraftfactory:tank>, <minecraft:water_bucket>, <buildcraftfactory:tank>],
-	[<ore:plateAdvancedAlloy>, <techreborn:gas_turbine>, <ore:plateAdvancedAlloy>]
+	[<ic2:itemmisc:257>, <techreborn:gas_turbine>, <ic2:itemmisc:257>]
 ]);
 
 // Modify | Wave Generator
 
 recipes.addShaped("wave_generator", <ic2:blockgenerator:12>, [
-	[<ore:ingotRefinedIron>, <ore:plateAdvancedAlloy>, <ore:circuitBasic>],
+	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:circuitBasic>],
 	[<ore:ingotRefinedIron>, <ic2:blockgenerator:2>, <ic2:blockgenerator:2>],
-	[<ore:ingotRefinedIron>, <ore:plateAdvancedAlloy>, <ore:circuitBasic>]
+	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:circuitBasic>]
 ]);
 
 // Modify | Ocean Generator
 
 recipes.addShaped("ocean_generator", <ic2:blockgenerator:13>, [
-	[<ore:ingotRefinedIron>, <ore:plateAdvancedAlloy>, <ore:ingotRefinedIron>],
+	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:ingotRefinedIron>],
 	[<ic2:blockgenerator:12>, <ic2:blockgenerator:2>, <ic2:blockgenerator:12>],
-	[<ore:ingotRefinedIron>, <ore:plateAdvancedAlloy>, <ore:ingotRefinedIron>]
+	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:ingotRefinedIron>]
 ]);
 
 // Modify | Fuel Boiler
@@ -121,7 +121,7 @@ val copperCable = <ic2:itemcable:1>;
 recipes.addShaped("mowing_tool", <ic2:itemmowingtool>, [
 	[null, <ic2:itemtoolchainsaw>, null],
 	[<ore:ingotRefinedIron>, <ore:circuitBasic>, <ore:ingotRefinedIron>],
-	[<ore:ingotRefinedIron>, <ore:reBattery>, <ore:ingotRefinedIron>]
+	[<ore:ingotRefinedIron>, <ic2:itembatre>, <ore:ingotRefinedIron>]
 ]);
 
 var teleporterHub = <ic2:blockmachinehv:6>;
@@ -152,9 +152,9 @@ recipes.addShaped("ic2_thermometer", <ic2:itemthermometer>, [
 // Modify | Plated Shield
 
 recipes.addShaped("plated_shield", <ic2:platedshield>, [
-	[<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
-	[<ore:plateAdvancedAlloy>, <thermalfoundation:tool.shield_bronze>, <ore:plateAdvancedAlloy>],
-	[<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>]
+	[<ic2:itemmisc:257>, <ic2:itemmisc:257>, <ic2:itemmisc:257>],
+	[<ic2:itemmisc:257>, <thermalfoundation:tool.shield_bronze>, <ic2:itemmisc:257>],
+	[<ic2:itemmisc:257>, <ic2:itemmisc:257>, <ic2:itemmisc:257>]
 ]);
 
 // TODO: Uranium Cells

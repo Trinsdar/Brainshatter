@@ -1760,5 +1760,8 @@
  "shapeless_item.techreborn.dust.nickel_-695193826": true,
  "shapeless_item.techreborn.dust.platinum_1210412092": true,
  "shapeless_item.techreborn.dust.steel_1665851840": true,
- "shaped_item.techreborn.plate.aluminum_-1340563741": true
+ "shaped_item.techreborn.plate.aluminum_-1340563741": true,
+ "shapeless_tile.blockAlloyCracked_169612180": true,
+ "shapeless_item.gtclassic.dustRedRock_-1233809883": true,
+ "shapeless_item.gtclassic.dustRedRock_828298950": true
 }

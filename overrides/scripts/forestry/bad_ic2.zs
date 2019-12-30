@@ -5,19 +5,19 @@
 // Propolis => Sap
 
 mods.forestry.Centrifuge.removeRecipe(<forestry:propolis>);
-mods.forestry.Centrifuge.addRecipe([<techreborn:part:31>], <forestry:propolis>, 100);
-mods.thermalexpansion.Centrifuge.addRecipe([<techreborn:part:31>], <forestry:propolis>, null, 2000);
+mods.forestry.Centrifuge.addRecipe([<ic2:itemharz>], <forestry:propolis>, 100);
+mods.thermalexpansion.Centrifuge.addRecipe([<ic2:itemharz>], <forestry:propolis>, null, 2000);
 
 // Latex Comb => 100% Rubber, 85% Beeswax, 50% Honey Drop
 mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:26>);
 mods.thermalexpansion.Centrifuge.removeRecipe(<extrabees:honey_comb:26>);
-mods.forestry.Centrifuge.addRecipe([<techreborn:part:32>, <forestry:beeswax> % 85, <forestry:honey_drop> % 50], <extrabees:honey_comb:26>, 100);
-mods.thermalexpansion.Centrifuge.addRecipe([<techreborn:part:32>, <forestry:beeswax> % 85, <forestry:honey_drop> % 50], <extrabees:honey_comb:26>, null, 2000);
+mods.forestry.Centrifuge.addRecipe([<ic2:itemmisc:450>, <forestry:beeswax> % 85, <forestry:honey_drop> % 50], <extrabees:honey_comb:26>, 100);
+mods.thermalexpansion.Centrifuge.addRecipe([<ic2:itemmisc:450>, <forestry:beeswax> % 85, <forestry:honey_drop> % 50], <extrabees:honey_comb:26>, null, 2000);
 
 // Amber Comb => 100% Sap, 100% Beeswax, 50% Sap
 mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:13>);
-mods.forestry.Centrifuge.addRecipe([<techreborn:part:31>, <forestry:beeswax>, <techreborn:part:31> % 50], <extrabees:honey_comb:13>, 100);
-mods.thermalexpansion.Centrifuge.addRecipe([<techreborn:part:31>, <forestry:beeswax>, <techreborn:part:31> % 50], <extrabees:honey_comb:13>, null, 2000);
+mods.forestry.Centrifuge.addRecipe([<ic2:itemharz>, <forestry:beeswax>, <ic2:itemharz> % 50], <extrabees:honey_comb:13>, 100);
+mods.thermalexpansion.Centrifuge.addRecipe([<ic2:itemharz>, <forestry:beeswax>, <ic2:itemharz> % 50], <extrabees:honey_comb:13>, null, 2000);
 
 // Remove bad crates
 
