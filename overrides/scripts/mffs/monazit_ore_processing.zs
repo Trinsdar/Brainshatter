@@ -1,9 +1,9 @@
 // Make ore processors treat Monazit Ore correctly
 
-val rawUranium = <ic2:itemmisc:180>;
+val uraniumDust = <gtclassic:uranium_dust>;
 
 mods.thermalexpansion.Pulverizer.removeRecipe(<modularforcefieldsystem:monazit_ore>);
-mods.thermalexpansion.Pulverizer.addRecipe(<modularforcefieldsystem:forcicium>*8, <modularforcefieldsystem:monazit_ore>, 4000, rawUranium, 10);
+mods.thermalexpansion.Pulverizer.addRecipe(<modularforcefieldsystem:forcicium>*8, <modularforcefieldsystem:monazit_ore>, 4000, uraniumDust, 10);
 
-mods.techreborn.grinder.addRecipe(<modularforcefieldsystem:forcicium>*8, <modularforcefieldsystem:monazit_ore>, 230, 2);
-mods.techreborn.industrialGrinder.addRecipe(<modularforcefieldsystem:forcicium>*10, rawUranium, null, null, <modularforcefieldsystem:monazit_ore>, null, <fluid:water>*1000, 100, 64);
+mods.ic2.Macerator.addRecipe(<modularforcefieldsystem:forcicium>*8, <modularforcefieldsystem:monazit_ore>);
+mods.gtclassic.IndustrialGrinder.addRecipe([<modularforcefieldsystem:forcicium>*10, uraniumDust],  <modularforcefieldsystem:monazit_ore>, <fluid:water>*1000, 6400);

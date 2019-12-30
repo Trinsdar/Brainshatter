@@ -9,9 +9,9 @@ val teslaCoil = <ic2:blockmachinemv:9>;
 // MFFS Security Station
 recipes.remove(<modularforcefieldsystem:adv_security>);
 recipes.addShaped("mffs_security_station", <modularforcefieldsystem:adv_security>, [
-	[<ore:plateAdvancedAlloy>, <ore:circuitBasic>, <ore:plateAdvancedAlloy>],
+	[<ic2:itemmisc:257>, <ore:circuitBasic>, <ic2:itemmisc:257>],
 	[<ore:circuitBasic>, <ore:machineBlockAdvanced>, <ore:circuitBasic>],
-	[<ore:plateAdvancedAlloy>, <ic2:itemfreq>, <ore:plateAdvancedAlloy>]
+	[<ic2:itemmisc:257>, <ic2:itemfreq>, <ic2:itemmisc:257>]
 ]);
 
 // MFFS Defense Station
@@ -19,7 +19,7 @@ recipes.remove(<modularforcefieldsystem:area_defense>);
 recipes.addShaped("mffs_defense_station", <modularforcefieldsystem:area_defense>, [
 	[null, <ic2:itemfreq>, null],
 	[<minecraft:ender_pearl>, <ore:machineBlockAdvanced>, <minecraft:ender_pearl>],
-	[null, <ore:plateCarbon>, null]
+	[null, <ic2:itemmisc:256>, null]
 ]);
 
 // MFFS Capacitor
@@ -43,15 +43,15 @@ recipes.remove(<modularforcefieldsystem:extractor>);
 recipes.addShaped("mffs_extractor", <modularforcefieldsystem:extractor>, [
 	[null, <ore:circuitBasic>, null],
 	[powerCrystal, <ore:machineBlockAdvanced>, powerCrystal],
-	[null, <techreborn:extractor>, null]
+	[null, <ic2:blockmachinelv:4>, null]
 ]);
 
 // MFFS Projector
 recipes.remove(<modularforcefieldsystem:projector>);
 recipes.addShaped("mffs_projector", <modularforcefieldsystem:projector>, [
-	[<ore:plateAdvancedAlloy>, focusMatrix, <ore:plateAdvancedAlloy>],
+	[<ic2:itemmisc:257>, focusMatrix, <ic2:itemmisc:257>],
 	[focusMatrix, <ore:machineBlockAdvanced>, focusMatrix],
-	[<ore:plateAdvancedAlloy>, <ic2:itemfreq>, <ore:plateAdvancedAlloy>]
+	[<ic2:itemmisc:257>, <ic2:itemfreq>, <ic2:itemmisc:257>]
 ]);
 
 // MFFS Secure Storage
@@ -65,9 +65,9 @@ recipes.addShaped("mffs_security_storage", <modularforcefieldsystem:security_sto
 // MFFS Capacitor Upgrade <Capacity>
 recipes.remove(<modularforcefieldsystem:upgrade_capacity>);
 recipes.addShaped("mffs_upgrade_capacity", <modularforcefieldsystem:upgrade_capacity>, [
-	[null, <ore:plateCarbon>, null],
-	[<ore:plateCarbon>, powerCrystal, <ore:plateCarbon>],
-	[null, <ore:plateCarbon>, null]
+	[null, <ic2:itemmisc:256>, null],
+	[<ic2:itemmisc:256>, powerCrystal, <ic2:itemmisc:256>],
+	[null, <ic2:itemmisc:256>, null]
 ]);
 
 
@@ -75,8 +75,8 @@ recipes.addShaped("mffs_upgrade_capacity", <modularforcefieldsystem:upgrade_capa
 recipes.remove(<modularforcefieldsystem:upgrade_range>);
 recipes.addShaped("mffs_upgrade_range", <modularforcefieldsystem:upgrade_range>, [
 	[copperCableUninsulated, copperCableUninsulated, copperCableUninsulated],
-	[<ore:plateCarbon>, copperCable, <ore:plateCarbon>],
-	[<ore:plateCarbon>, <ore:circuitAdvanced>, <ore:plateCarbon>]
+	[<ic2:itemmisc:256>, copperCable, <ic2:itemmisc:256>],
+	[<ic2:itemmisc:256>, <ore:circuitAdvanced>, <ic2:itemmisc:256>]
 ]);
 
 // MFFS Card: Empty
@@ -94,9 +94,9 @@ recipes.remove(<modularforcefieldsystem:power_card>);
 // MFFS Extractor Upgrade: Booster
 recipes.remove(<modularforcefieldsystem:extractor_upgrade_booster>);
 recipes.addShaped("mffs_extractor_upgrade_booster", <modularforcefieldsystem:extractor_upgrade_booster>*4, [
-	[null, <ore:plateCarbon>, null],
-	[<ore:plateCarbon>, <techreborn:upgrades:0>, <ore:plateCarbon>],
-	[null, <ore:plateCarbon>, null]
+	[null, <ic2:itemmisc:256>, null],
+	[<ic2:itemmisc:256>, <ic2:ic2upgrades>, <ic2:itemmisc:256>],
+	[null, <ic2:itemmisc:256>, null]
 ]);
 
 // Force Power Crystal
@@ -198,25 +198,25 @@ recipes.addShaped("mffs_projector_module_wall", <modularforcefieldsystem:module_
 // Multi-Tool
 recipes.remove(<modularforcefieldsystem:multitool_wrench>);
 recipes.addShaped("mffs_multitool_wrench", <modularforcefieldsystem:multitool_wrench>, [
-	[<minecraft:redstone>, <techreborn:wrench>, <minecraft:lever>],
-	[<ore:plateCarbon>, powerCrystal, <ore:plateCarbon>],
-	[<ore:plateCarbon>, <ore:circuitAdvanced>, <ore:plateCarbon>]
+	[<minecraft:redstone>, <ic2:itemtoolwrench>, <minecraft:lever>],
+	[<ic2:itemmisc:256>, powerCrystal, <ic2:itemmisc:256>],
+	[<ic2:itemmisc:256>, <ore:circuitAdvanced>, <ic2:itemmisc:256>]
 ]);
 
 // Projector Option: Cutter
 recipes.remove(<modularforcefieldsystem:option_block_breaker>);
 recipes.addShaped("mffs_option_block_breaker", <modularforcefieldsystem:option_block_breaker>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <minecraft:iron_pickaxe>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <minecraft:iron_pickaxe>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Camoflage
 recipes.remove(<modularforcefieldsystem:option_camoflage>);
 recipes.addShaped("mffs_option_camoflage", <modularforcefieldsystem:option_camoflage>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <techreborn:uumatter>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <ic2:itemmisc:202>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Defense Station
@@ -230,17 +230,17 @@ recipes.addShaped("mffs_option_defense_station", <modularforcefieldsystem:option
 // Projector Option: Field Fusion
 recipes.remove(<modularforcefieldsystem:option_field_fusion>);
 recipes.addShaped("mffs_option_field_fusion", <modularforcefieldsystem:option_field_fusion>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <ore:circuitAdvanced>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <ore:circuitAdvanced>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Dome
 recipes.remove(<modularforcefieldsystem:option_field_manipulator>);
 recipes.addShaped("mffs_option_field_manipulator", <modularforcefieldsystem:option_field_manipulator>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <ore:circuitBasic>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <ore:circuitBasic>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Forcefield Jammer
@@ -262,25 +262,25 @@ recipes.addShaped("mffs_option_mob_defense", <modularforcefieldsystem:option_mob
 // Projector Option: Sponge
 recipes.remove(<modularforcefieldsystem:option_sponge>);
 recipes.addShaped("mffs_option_sponge", <modularforcefieldsystem:option_sponge>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <minecraft:bucket>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <minecraft:bucket>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Zapper
 recipes.remove(<modularforcefieldsystem:option_touch_damage>);
 recipes.addShaped("mffs_option_touch_damage", <modularforcefieldsystem:option_touch_damage>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, teslaCoil, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, teslaCoil, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Projector Option: Light
 recipes.remove(<modularforcefieldsystem:option_light>);
 recipes.addShaped("mffs_option_light", <modularforcefieldsystem:option_light>, [
-	[null, <ore:plateAdvancedAlloy>, null],
-	[<ore:plateAdvancedAlloy>, <techreborn:lamp_led>, <ore:plateAdvancedAlloy>],
-	[null, <ore:plateAdvancedAlloy>, null]
+	[null, <ic2:itemmisc:257>, null],
+	[<ic2:itemmisc:257>, <ic2:blockluminator>, <ic2:itemmisc:257>],
+	[null, <ic2:itemmisc:257>, null]
 ]);
 
 // Access Card

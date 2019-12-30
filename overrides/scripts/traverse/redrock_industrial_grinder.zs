@@ -1,8 +1,6 @@
-// Purpose: Adds Red Rock to the Industrial Grinder.
+// Purpose: Adds Red Rock to the Macerator.
 
-val dustCalcite = <techreborn:dust:8>;
-val dustClay = <techreborn:dust:12>;
-val dustFlint = <techreborn:dust:22>;
+val redrockDust = <gtclassic:redrock_dust>;
 
-mods.techreborn.industrialGrinder.addRecipe(dustCalcite*2, dustClay, dustFlint, null, <traverse:red_rock>*4, null, <fluid:water>*1000, 100, 64).setUseOreDict(false);
-mods.techreborn.industrialGrinder.addRecipe(dustCalcite*2, dustClay, dustFlint, null, <traverse:red_rock_cobblestone>*4, null, <fluid:water>*1000, 100, 64).setUseOreDict(false);
+mods.ic2.Macerator.addRecipe(redrockDust, <traverse:red_rock>);
+mods.ic2.Macerator.addRecipe(redrockDust, <traverse:red_rock_cobblestone>);
