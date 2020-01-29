@@ -1,4 +1,4 @@
-// Purpose: Replace Portal Gun's Ender Pearl Dust with TechReborn's Ender Pearl Dust
+// Purpose: Replace Portal Gun's Ender Pearl Dust with GTClassic's Ender Pearl Dust and makes portal gun recipe harder.
 
 mods.jei.JEI.hide(<portalgun:item_dust_ender_pearl>);
 <ore:dustEnderPearl>.remove(<portalgun:item_dust_ender_pearl>);

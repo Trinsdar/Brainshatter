@@ -27,7 +27,7 @@ recipes.addShaped("eu_detector_cable", <ic2:itemcable:11>, [
 // Modify | Steam Turbine
 
 recipes.addShapeless("basic_steam_turbine", <ic2:blockgenerator:7>, [
-	<techreborn:gas_turbine>, 
+	<gtc_expansion:gasturbine>, 
 	<ic2:blockgenerator:2>
 ]);
 
@@ -36,7 +36,7 @@ recipes.addShapeless("basic_steam_turbine", <ic2:blockgenerator:7>, [
 recipes.addShaped("solar_turbine", <ic2:blockgenerator:9>, [
 	[<ic2:itemmisc:257>, <ic2:blockgenerator:3>, <ic2:itemmisc:257>],
 	[<buildcraftfactory:tank>, <minecraft:water_bucket>, <buildcraftfactory:tank>],
-	[<ic2:itemmisc:257>, <techreborn:gas_turbine>, <ic2:itemmisc:257>]
+	[<ic2:itemmisc:257>, <gtc_expansion:gasturbine>, <ic2:itemmisc:257>]
 ]);
 
 // Modify | Wave Generator
@@ -60,7 +60,7 @@ recipes.addShaped("ocean_generator", <ic2:blockgenerator:13>, [
 recipes.addShaped("fuel_boiler", <ic2:blockgenerator:14>, [
 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 	[<ore:plateSteel>, null, <ore:plateSteel>],
-	[<ore:circuitAdvanced>, <techreborn:diesel_generator>, <ore:circuitAdvanced>]
+	[<ore:circuitAdvanced>, <gtc_expansion:dieselgenerator>, <ore:circuitAdvanced>]
 ]);
 
 // Remove | Small Electric Flux Generator

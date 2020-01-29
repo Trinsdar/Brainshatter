@@ -39,7 +39,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:819>,
 mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "seed_oil", Amount: 1000}}));
 mods.jei.JEI.hide(<forestry:capsule:1>.withTag({Fluid: {FluidName: "seed_oil", Amount: 1000}}));
 mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "seed_oil", Amount: 1000}}));
-mods.jei.JEI.hide(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "seed_oil", Amount: 1000}}));
 mods.jei.JEI.hide(<gtclassic:test_tube>.withTag({Fluid: {FluidName: "seed_oil", Amount: 1000}}));
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "seed_oil", Amount: 1000}));
 mods.jei.JEI.hide(<fluid:seed_oil>);

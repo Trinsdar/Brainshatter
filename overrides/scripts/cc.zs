@@ -1,0 +1,1 @@
+recipes.remove(<peripheralsplusone:ore_dictionary>);

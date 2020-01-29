@@ -46,16 +46,6 @@ mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotsilver>);
 mods.forestry.Carpenter.removeRecipe(<ic2:itemmisc:54>);
 
 //mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotlead>); 
-//mods.forestry.Carpenter.removeRecipe(<techreborn:ingot:8>);
-
-mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotaluminum>); 
-mods.forestry.Carpenter.removeRecipe(<techreborn:ingot:0>);
-
-mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotbrass>); 
-mods.forestry.Carpenter.removeRecipe(<techreborn:ingot:1>);
-
-mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotnickel>); 
-mods.forestry.Carpenter.removeRecipe(<techreborn:ingot:9>);
 
 mods.jei.JEI.hide(<forestry:crated.ic2.itemmisc.202>); 
 mods.jei.JEI.hide(<forestry:crated.ic2.itemharz.0>);
@@ -68,6 +58,3 @@ mods.jei.JEI.hide(<forestry:crated.ingotbronze>);
 mods.jei.JEI.hide(<forestry:crated.ingotsilver>); 
 
 //mods.jei.JEI.hide(<forestry:crated.ingotlead>); 
-mods.jei.JEI.hide(<forestry:crated.ingotaluminum>); 
-mods.jei.JEI.hide(<forestry:crated.ingotbrass>); 
-mods.jei.JEI.hide(<forestry:crated.ingotnickel>); 

@@ -18,7 +18,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:ore:4>, <
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:ore:4>, <thermalfoundation:material:866>);        // Cinnabar + Aluminum Ore
 
 // Remove pyrotheum recipes by only allowing aluminum to be made from blocks and nuggets.
-recipes.remove(<techreborn:ingot:0>);
 recipes.remove(<thermalfoundation:material:132>);
 
 # Remove Tungsten / Pyrotheum recipes
@@ -27,9 +26,8 @@ recipes.removeByRecipeName("thermalfoundation:ingot_4");
 recipes.removeByRecipeName("thermalfoundation:ingot_5");
 
 # Remove Hot Tungstensteel / Cryotheum recipes
-mods.thermalexpansion.Transposer.removeFillRecipe(<techreborn:ingot:16>, <liquid:cryotheum>*200);
+//mods.thermalexpansion.Transposer.removeFillRecipe(<techreborn:ingot:16>, <liquid:cryotheum>*200);
 
 # Remove Iridium Alloy Plate from Compactor
-mods.thermalexpansion.Compactor.removeStorageRecipe(<techreborn:ingot:22>);
 
 // TODO: Distillation Tower

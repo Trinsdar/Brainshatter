@@ -43,6 +43,7 @@ Biomass           3.2 KMJ
 
 // Semi Fluid Generator
 
+/*
 mods.techreborn.fluidGen.removeSemiFluid(<fluid:crude_oil>);
 mods.techreborn.fluidGen.removeSemiFluid(<fluid:fluidoil>);
 mods.techreborn.fluidGen.removeSemiFluid(<fluid:oil>);
@@ -75,3 +76,4 @@ mods.techreborn.fluidGen.addDieselFluid(<fluid:tree_oil>, 100);
 // Gas Turbine
 
 mods.techreborn.fluidGen.addGasFluid(<fluid:fuel_gaseous>, 40);
+*/
