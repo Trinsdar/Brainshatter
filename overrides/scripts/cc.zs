@@ -1,1 +1,1 @@
-recipes.remove(<peripheralsplusone:ore_dictionary>);
+//recipes.removeByRecipeName("peripheralsplusone:recipe_ore_dictionary");

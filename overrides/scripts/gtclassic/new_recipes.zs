@@ -1,0 +1,2 @@
+recipes.remove(<gtclassic:disassembler>);
+recipes.addShaped("disassembler", <gtclassic:disassembler>, [[<ore:plateRefinedIron>, <gtclassic:worktable>, <ore:plateRefinedIron>], [<ic2:itemcable:1>, <ore:circuitAdvanced>, <ic2:itemcable:1>], [<ore:plateRefinedIron>, <gtc_expansion:assemblingmachine>, <ore:plateRefinedIron>]]);
