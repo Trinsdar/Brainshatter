@@ -13,8 +13,6 @@ mods.thermalexpansion.Transposer.removeExtractRecipe(<extratrees:misc:7>); // Ba
 mods.thermalexpansion.Transposer.removeExtractRecipe(<extratrees:misc:8>); // Rye Grain
 mods.thermalexpansion.Transposer.removeExtractRecipe(<extratrees:misc:10>); // Roasted Grain
 
-mods.thermalexpansion.Transposer.removeExtractRecipe(<simpleflax:seeds>);
-
 // Re-add extract recipes
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <minecraft:wheat_seeds>, 1600);
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <minecraft:pumpkin_seeds>, 1600);
@@ -26,7 +24,7 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <extratre
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <extratrees:misc:9>, 1600); // Corn Grain
 mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <extratrees:misc:10>, 1600); // Roasted Grain
 
-mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <simpleflax:seeds>, 1600);
+mods.thermalexpansion.Transposer.addExtractRecipe(<fluid:seed.oil>*10, <bluepower:flax_seeds>, 1600);
 
 // Replace fill recipes
 mods.thermalexpansion.Transposer.removeFillRecipe(<thermalfoundation:material:816>, <fluid:seed_oil>); // Pulped Biomass => Rich Biomass
