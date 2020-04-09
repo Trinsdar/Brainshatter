@@ -337,7 +337,10 @@
   "item.gtclassic.dustManganese_-1253527559": true,
   "item.gtclassic.dustMagnesium_-268268157": true,
   "item.gtclassic.dustDiamond_-393263279": true,
-  "item.gtclassic.dustEmerald_1236778417": true
+  "item.gtclassic.dustEmerald_1236778417": true,
+  "item.gtclassic.dustWood_1231629582": true,
+  "item.gtclassic.dustBrownDye_-943177162": true,
+  "item.gtclassic.dustCassiterite_891427654": true
  },
  "extractor": {
   "item.coal_764578481": true,
@@ -447,7 +450,9 @@
   "item.gtclassic.test_tube_-1720205371": true,
   "item.gtclassic.test_tube_144467128": true,
   "item.gtclassic.test_tube_1023255501": true,
-  "item.gtclassic.test_tube_1228866283": true
+  "item.gtclassic.test_tube_1228866283": true,
+  "item.gtclassic.test_tube_70395031": true,
+  "item.charcoal_839863664": true
  },
  "compressor": {
   "tile.sandStone.default_1494879518": true,
@@ -740,7 +745,8 @@
   "tile.bluepower:amethyst_block_1632187764": true,
   "tile.twilightforest.BlockOfStorage.1_-1830426503": true,
   "tile.twilightforest.KnightmetalBlock_119827080": true,
-  "tile.twilightforest.BlockOfStorage.2_-1873231404": true
+  "tile.twilightforest.BlockOfStorage.2_-1873231404": true,
+  "item.gtclassic.dustCassiterite_-166825639": true
  },
  "massfabricatorAmplifier": {
   "ScrapAmplifier": true,
@@ -1063,7 +1069,11 @@
   "item.propolis_3": true,
   "item.gtclassic.dustsmallPyrite": true,
   "item.gtclassic.dustsmallCinnabar": true,
-  "item.gtclassic.dustsmallSphalerite": true
+  "item.gtclassic.dustsmallSphalerite": true,
+  "item.itemMatter": true,
+  "item.gtclassic.test_tube_42": true,
+  "item.gtclassic.dustCarbon_4": true,
+  "item.gtclassic.dustCarbon_4_1": true
  },
  "gt.uumassembler": {
   "tile.stonebrick": true,
@@ -1186,7 +1196,9 @@
   "item.for.can_17": true,
   "item.for.can_18": true,
   "item.gtclassic.dustEnderPearl": true,
-  "item.gtclassic.dustEnderEye": true
+  "item.gtclassic.dustEnderEye": true,
+  "tile.gtclassic.superfuelmagic": true,
+  "item.itemCellPlasma": true
  },
  "gt.electrolyzer": {
   "item.gtclassic.test_tube": true,
@@ -1228,7 +1240,14 @@
   "item.gtclassic.dustSilicon_2": true,
   "item.gtclassic.test_tube_17": true,
   "item.itemCellEmpty_1": true,
-  "item.itemDustIron_2": true
+  "item.itemDustIron_2": true,
+  "item.itemDustTin": true,
+  "item.gtclassic.test_tube_18": true,
+  "item.gtclassic.test_tube_19": true,
+  "item.gtclassic.test_tube_20": true,
+  "item.gtclassic.test_tube_21": true,
+  "item.gtclassic.test_tube_22": true,
+  "item.gtclassic.test_tube_23": true
  },
  "gt.vacuumfreezer": {
   "item.gtclassic.ingotTungsten": true,
@@ -1300,7 +1319,8 @@
   "item.gtclassic.dustNickel_1": true,
   "item.gtclassic.dustNickel_2": true,
   "item.itemDustClay": true,
-  "item.gtclassic.gemRuby_1": true
+  "item.gtclassic.gemRuby_1": true,
+  "item.gtclassic.dustTungsten_1_1": true
  },
  "gt.implosioncompressor": {
   "item.gtclassic.gemRuby": true,
@@ -1427,7 +1447,19 @@
   "item.gtclassic.hullTitanium": true,
   "item.gtc_expansion.pump_module": true,
   "tile.gtc_expansion.iridium_tungstensteel_block": true,
-  "tile.gtc_expansion.iridium_tungstensteel_block_1": true
+  "tile.gtc_expansion.iridium_tungstensteel_block_1": true,
+  "item.gtclassic.sensor_stick": true,
+  "item.railcraft.rail.standard": true,
+  "item.railcraft.rail.standard_1": true,
+  "item.railcraft.rail.standard_2": true,
+  "item.railcraft.rail.standard_3": true,
+  "item.railcraft.rail.standard_4": true,
+  "item.railcraft.rail.reinforced": true,
+  "item.railcraft.rail.reinforced_1": true,
+  "item.railcraft.rail.reinforced_2": true,
+  "item.railcraft.rail.advanced": true,
+  "item.railcraft.rail.electric": true,
+  "item.railcraft.rail.electric_1": true
  },
  "gt.chemicalreactor": {
   "item.gtclassic.dustCalcite": true,
@@ -1444,7 +1476,13 @@
   "item.sulphur": true,
   "item.gtclassic.test_tube_10": true,
   "item.thermalfoundation.material.dustNiter": true,
-  "item.gtclassic.test_tube_11": true
+  "item.gtclassic.test_tube_11": true,
+  "item.gtclassic.super_fuel_binder": true,
+  "item.gtclassic.magic_super_fuel_binder": true,
+  "item.gtclassic.dustSaltpeter": true,
+  "item.gtclassic.test_tube_12": true,
+  "tile.gtclassic.superfuel": true,
+  "tile.gtclassic.superfuelmagic": true
  },
  "gt.primitiveblastfurnace": {
   "item.itemIngotAdvIron": true,
@@ -1727,7 +1765,17 @@
   "item.gtc_expansion.nichrome_heating_coil": true,
   "item.itemPartCarbonFibre": true,
   "item.itemPartCarbonFibre_1": true,
-  "item.itemPartCarbonFibre_2": true
+  "item.itemPartCarbonFibre_2": true,
+  "item.itemCellEmpty": true,
+  "item.railcraft.rebar": true,
+  "item.railcraft.rebar_1": true,
+  "item.railcraft.rebar_2": true,
+  "item.railcraft.rebar_3": true,
+  "item.railcraft.track.parts": true,
+  "item.railcraft.track.parts_1": true,
+  "item.railcraft.track.parts_2": true,
+  "item.railcraft.track.parts_3": true,
+  "item.railcraft.track.parts_4": true
  },
  "gt.lathe": {
   "item.gtclassic.stickTungsten": true,
@@ -1989,7 +2037,13 @@
   "fluid.nichrome": true,
   "fluid.nichrome_1": true,
   "fluid.nichrome_2": true,
-  "fluid.nichrome_3": true
+  "fluid.nichrome_3": true,
+  "fluid.silver_6": true,
+  "fluid.gold_6": true,
+  "fluid.copper_6": true,
+  "fluid.tin_6": true,
+  "fluid.refinediron_1_1": true,
+  "fluid.iron_6": true
  },
  "sawmill": {
   "tile.wood.oak_-867074482": true,
@@ -2361,7 +2415,16 @@
   "item.itemMatter_37": true,
   "item.itemMatter_38": true,
   "item.itemMatter_39": true,
-  "item.itemMatter_40": true
+  "item.itemMatter_40": true,
+  "item.itemMatter_41": true,
+  "item.itemMatter_42": true,
+  "item.itemMatter_43": true,
+  "item.itemMatter_44": true,
+  "item.itemMatter_45": true,
+  "item.itemMatter_46": true,
+  "item.itemMatter_47": true,
+  "item.itemMatter_48": true,
+  "item.itemMatter_49": true
  },
  "gt.fusion": {
   "item.itemCellPlasma": true,
@@ -13643,7 +13706,26 @@
   "tile.oak_chest_trap": true,
   "tile.stone.stone_56": true,
   "tile.wood.oak_133": true,
-  "tile.cloth.white_51": true
+  "tile.cloth.white_51": true,
+  "tile.gtc_expansion.orecassiterite": true,
+  "item.gtclassic.sensor_stick": true,
+  "item.gtclassic.platePlatinum_2": true,
+  "item.gtclassic.energy_circuit_10": true,
+  "item.gtclassic.plateTitanium_2": true,
+  "item.gtc_expansion.computer_monitor": true,
+  "item.gtclassic.energy_circuit_11": true,
+  "item.gtclassic.plateTungsten_5": true,
+  "item.gtclassic.plateRefinedIron_11": true,
+  "item.gtclassic.plateRefinedIron_12": true,
+  "item.gtclassic.dustAshes_1": true,
+  "item.gtclassic.stickRefinedIron_2": true,
+  "item.gtclassic.plateTitanium_3": true,
+  "item.gtclassic.dustsmallCassiterite": true,
+  "item.gtclassic.dustCassiterite": true,
+  "item.paper_23": true,
+  "item.paper_24": true,
+  "item.paper_25": true,
+  "item.gtclassic.stickConstantan": true
  },
  "gt.microwave": {
   "item.fish.salmon.cooked": true,
@@ -13806,7 +13888,8 @@
   "item.techreborn.dust.andesite": true,
   "item.techreborn.dust.diorite": true,
   "item.sulphur_1": true,
-  "item.itemNetherrackDust_1": true
+  "item.itemNetherrackDust_1": true,
+  "item.gtclassic.dustCassiterite": true
  },
  "gt.mortar": {
   "item.gtclassic.dustBasalt": true,
@@ -13915,6 +13998,7 @@
   "item.gtclassic.dustPlutonium_1": true,
   "item.gtclassic.dustCalcite": true,
   "item.gtclassic.dustCalcite_1": true,
-  "item.gtclassic.dustBasalt_3": true
+  "item.gtclassic.dustBasalt_3": true,
+  "item.gtclassic.dustBrownDye": true
  }
 }
