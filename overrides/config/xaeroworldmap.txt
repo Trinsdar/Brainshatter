@@ -13,4 +13,5 @@ flowers:true
 compression:false
 coordinates:true
 biomeColorsVanillaMode:false
-globalVersion:3
+waypoints:true
+globalVersion:5

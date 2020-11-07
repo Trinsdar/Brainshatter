@@ -9,6 +9,3 @@ mods.gtclassic.IndustrialGrinder.addRecipe([<minecraft:quartz>*4, <gtclassic:sul
 
 // Apatite Ore
 mods.gtclassic.IndustrialGrinder.addRecipe([<forestry:apatite>*16, <gtclassic:phosphorus_dust>*2, <gtclassic:sulfur_dust>],  <forestry:resources:0>, <fluid:water>*1000, 6400);
-
-// Tungsten Ore
-mods.gtclassic.IndustrialGrinder.addRecipe([<gtclassic:tungsten_dust>*3, <gtclassic:iron_dustsmall>*3, <gtclassic:manganese_dustsmall>*3], <gtc_expansion:tungstate_ore>, <fluid:water>*1000,6400);

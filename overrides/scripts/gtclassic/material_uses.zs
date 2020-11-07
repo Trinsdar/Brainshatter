@@ -5,7 +5,7 @@ val ethanolCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "bio.ethanol
 val woodGasCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "woodgas", Amount: 1000}});
 val glycerylCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "glyceryl", Amount: 1000}});
 
-mods.gtclassic.DistillationTower.addRecipe([<liquid:bio.ethanol>*8000, <liquid:woodgas>*8000, <liquid:glyceryl>*1000], 18200, <liquid:biomass>*16);
+mods.gtclassic.DistillationTower.addRecipe([<liquid:bio.ethanol>*8000, <liquid:woodgas>*7000, <liquid:glyceryl>*1000], 18200, <liquid:biomass>*16000);
 
 // Flint dust for crafting Industrial TNT
 
@@ -24,10 +24,9 @@ recipes.addShaped("itnt_flint_dust_v", <ic2:blockexplosive>*5, [
 ]);
 
 // Bone Meal to Phosphorus
-val calciumCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "calcium", Amount: 1000}});
 val phosphorusDust = <gtclassic:phosphorus_dust>;
 
-mods.gtclassic.Electrolyzer.addCellRecipe([calciumCell, phosphorusDust], <minecraft:dye:15>*6, 1, 2120);
+mods.gtclassic.Electrolyzer.addRecipe([phosphorusDust], [<liquid:calcium> * 1000], [<minecraft:dye:15>*6], 2120);
 
 // Forestry Fertilizer Crafting
 
@@ -57,9 +56,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper>, dustWood, <liq
 // Nitrogendioxide + Potassium makes Niter
 
 val dustSaltpeter = <thermalfoundation:material:772>;
-val potassiumCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "potassium", Amount: 1000}});
-val nitrogendioxideCell = <gtclassic:test_tube>.withTag({Fluid: {FluidName: "nitrogendioxide", Amount: 1000}});
 
-mods.gtclassic.ChemicalReactor.addRecipe([<thermalfoundation:material:772>*5], potassiumCell, nitrogendioxideCell, 0, 7520);
+mods.gtclassic.ChemicalReactor.addRecipe([<thermalfoundation:material:772>*5], [<liquid:potassium> * 1000, <liquid:nitrogendioxide> * 1000], 7520);
 
 // TODO: andesite/diorite/granite dust

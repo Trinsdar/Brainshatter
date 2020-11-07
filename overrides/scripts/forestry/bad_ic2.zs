@@ -19,6 +19,13 @@ mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:13>);
 mods.forestry.Centrifuge.addRecipe([<ic2:itemharz>, <forestry:beeswax>, <ic2:itemharz> % 50], <extrabees:honey_comb:13>, 100);
 mods.thermalexpansion.Centrifuge.addRecipe([<ic2:itemharz>, <forestry:beeswax>, <ic2:itemharz> % 50], <extrabees:honey_comb:13>, null, 2000);
 
+// Radioactive Comb => 50% Beeswax, 50% Uranium Dust, 25% Honey Drop
+mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:21>);
+mods.thermalexpansion.Centrifuge.removeRecipe(<extrabees:honey_comb:21>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 50, <gtclassic:uranium_dust> % 50, <forestry:honey_drop> % 25], <extrabees:honey_comb:21>, 100);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax> % 50, <gtclassic:uranium_dust> % 50, <forestry:honey_drop> % 25], <extrabees:honey_comb:21>, null, 2000);
+mods.gtclassic.IndustrialCentrifuge.addRecipe([<forestry:beeswax>, <gtclassic:uranium_dust>, <forestry:honey_drop>], <extrabees:honey_comb:21>, 16000);
+
 // Remove bad crates
 
 mods.forestry.Carpenter.removeRecipe(<forestry:crated.ic2.itemmisc.202>); 

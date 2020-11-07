@@ -39,21 +39,6 @@ recipes.addShaped("solar_turbine", <ic2:blockgenerator:9>, [
 	[<ic2:itemmisc:257>, <gtc_expansion:gasturbine>, <ic2:itemmisc:257>]
 ]);
 
-// Modify | Wave Generator
-
-recipes.addShaped("wave_generator", <ic2:blockgenerator:12>, [
-	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:circuitBasic>],
-	[<ore:ingotRefinedIron>, <ic2:blockgenerator:2>, <ic2:blockgenerator:2>],
-	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:circuitBasic>]
-]);
-
-// Modify | Ocean Generator
-
-recipes.addShaped("ocean_generator", <ic2:blockgenerator:13>, [
-	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:ingotRefinedIron>],
-	[<ic2:blockgenerator:12>, <ic2:blockgenerator:2>, <ic2:blockgenerator:12>],
-	[<ore:ingotRefinedIron>, <ic2:itemmisc:257>, <ore:ingotRefinedIron>]
-]);
 
 // Modify | Fuel Boiler
 
