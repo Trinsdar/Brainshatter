@@ -1291,7 +1291,8 @@
   "item.uranium235Ingot_1775882148": true,
   "item.uranium233Ingot_-1709738584": true,
   "item.uranium238Ingot_-1585621346": true,
-  "item.itemFuelUran_2128902580": true
+  "item.itemFuelUran_2128902580": true,
+  "ic2exprecipe_Compressed Air Cell_": true
  },
  "massfabricatorAmplifier": {
   "ScrapAmplifier": true,
@@ -12024,7 +12025,8 @@
   "item.itemDustSilver_1": true,
   "item.itemDustGold_1": true,
   "item.itemDustCopper_1": true,
-  "item.itemDustIron_1": true
+  "item.itemDustIron_1": true,
+  "item.itemCellAir_1": true
  },
  "gt.stoneextractor": {
   "item.quicksilver": true,
@@ -12075,7 +12077,8 @@
   "tile.oreGold": true,
   "tile.pumpkin": true,
   "tile.blockOreCopper": true,
-  "item.itemRubber_3": true
+  "item.itemRubber_3": true,
+  "item.cake": true
  },
  "gt.macerator": {
   "item.gtclassic.dustBasalt": true,

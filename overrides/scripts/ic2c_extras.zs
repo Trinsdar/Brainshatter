@@ -92,3 +92,4 @@ mods.ic2.CanningMachine.addCanningRecipe(<ic2:itemmisc:101>, <ic2:itemmisc:352>,
 mods.ic2.CanningMachine.addCanningRecipe(<ic2:itemmisc:103>, <ic2:itemmisc:351>, <ic2c_extras:universal_fluid_cell>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2c_extras:universal_fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <ic2:tile.water>, <ic2c_extras:universal_fluid_cell>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2c_extras:universal_fluid_cell>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}), <ic2:tile.lava>, <ic2c_extras:universal_fluid_cell>);
+mods.gtclassic.FusionReactor.addRecipe(<ic2:itemmisc:108>, <ic2:itemmisc:202> * 10, <ic2c_extras:universal_fluid_cell>, 9994240, 100000000);
