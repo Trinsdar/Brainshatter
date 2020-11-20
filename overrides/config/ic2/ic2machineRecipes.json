@@ -360,7 +360,9 @@
   "tile.redwoods.fir_planks_To_Sticks_-1765933512_1": true,
   "tile.traverse:fir_planks_To_Sticks_1834480565": true,
   "tile.log.jungle_-1814706450": true,
-  "item.melon_-1083706285": true
+  "item.melon_-1083706285": true,
+  "item.bluepower:silicon_wafer_ct": true,
+  "item.bluepower:silicon_wafer_ct_1": true
  },
  "macerator": {
   "ic2exprecipe_Basalt Dust_": true,
@@ -637,7 +639,8 @@
   "item.gtclassic.dustUranium_-417071588": true,
   "item.uranium233Dust_1189228084": true,
   "item.uranium235_-1663904446": true,
-  "item.gtclassic.dusttinyIridium_-1752200410": true
+  "item.gtclassic.dusttinyIridium_-1752200410": true,
+  "item.gtclassic.dustEndstone_1284186543": true
  },
  "gt.industrialgrinder": {
   "item.coal_ct": true,
@@ -868,7 +871,7 @@
  },
  "gt.centrifuge": {
   "item.quicksilver": true,
-  "item.itemCellAir": true,
+  "item.itemCellAir": false,
   "item.itemCellEmpty": true,
   "item.gtclassic.test_tube": true,
   "item.gtclassic.test_tube_1": true,
@@ -1125,7 +1128,8 @@
   "item.gtclassic.dustStone": true,
   "item.for.beeswax_16_1": true,
   "item.universalFluidCell": true,
-  "item.itemMatter_1": false
+  "item.itemMatter_1": false,
+  "item.itemCellAir_2": true
  },
  "compressor": {
   "tile.sandStone.default_1494879518": true,
@@ -1596,7 +1600,7 @@
   "tile.blockWindGenerator_1": true,
   "tile.workbench": true,
   "tile.furnace": true,
-  "item.gtclassic.spray_can_empty": true,
+  "item.gtclassic.spray_can_empty": false,
   "tile.gtc_expansion.iridium_tungstensteel_block": true,
   "tile.gtc_expansion.iridium_tungstensteel_block_1": true,
   "tile.gtc_expansion.tungstensteel_reinforced_stone": true,
@@ -1636,7 +1640,8 @@
   "item.railcraft.charge.electrode.nickel": true,
   "item.railcraft.charge.electrode.iron": true,
   "item.railcraft.charge.electrode.zinc": true,
-  "item.railcraft.charge.electrode.silver": true
+  "item.railcraft.charge.electrode.silver": true,
+  "item.gtclassic.spray_can_empty_1": true
  },
  "gt.primitiveblastfurnace": {
   "item.ingotIron": true,
@@ -2846,7 +2851,8 @@
   "item.gtclassic.dustUranium_3": true,
   "item.gtclassic.dustAluminium_3": true,
   "item.uranium233Dust": true,
-  "item.uranium235": true
+  "item.uranium235": true,
+  "item.gtclassic.dustEndstone": true
  },
  "gt.uuamplifier": {
   "item.itemMatter": true,
@@ -11836,7 +11842,13 @@
   "item.doubleThorium232Cell": true,
   "item.singleThorium232Cell_1": true,
   "item.itemDustCoal_20": true,
-  "item.gtclassic.ingotLead_26": true
+  "item.gtclassic.ingotLead_26": true,
+  "tile.blockMachine": true,
+  "tile.blockMachine_1": true,
+  "item.universalFluidCell_1": true,
+  "item.universalFluidCell_2": true,
+  "item.itemGrinPowder": true,
+  "item.universalFluidCell_3": true
  },
  "gt.trophies": {
   "tile.dragonEgg": true,
@@ -12078,7 +12090,10 @@
   "tile.pumpkin": true,
   "tile.blockOreCopper": true,
   "item.itemRubber_3": true,
-  "item.cake": true
+  "item.cake": true,
+  "item.itemTinCanFilled": true,
+  "item.leather": true,
+  "item.rabbitCooked": true
  },
  "gt.macerator": {
   "item.gtclassic.dustBasalt": true,
@@ -12331,7 +12346,8 @@
   "item.gtclassic.dustAluminium_5": true,
   "item.uranium233Dust": true,
   "item.uranium235": true,
-  "item.gtclassic.dusttinyIridium": true
+  "item.gtclassic.dusttinyIridium": true,
+  "item.gtclassic.dustEndstone": true
  },
  "gt.furnace": {
   "item.charcoal": true,

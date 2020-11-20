@@ -6,4 +6,3 @@
 <ore:plateTin>.remove(<ic2:itemmisc:51>);
 <ore:plateLapis>.remove(<minecraft:dye:4>);
 <ore:plateBronze>.remove(<ic2:itemmisc:52>);
-<ore:machineBlockBasic>.remove(<ic2:blockmachinelv:0>);

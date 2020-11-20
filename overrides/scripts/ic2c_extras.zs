@@ -88,8 +88,32 @@ mods.gtclassic.IndustrialCentrifuge.addRecipe([<ic2:itemmisc:202> * 10, <ic2c_ex
 mods.ic2.Compressor.removeRecipe(<ic2:itemcellempty>);
 mods.ic2.Compressor.addRecipe(<ic2:itemmisc:100>, <ic2c_extras:universal_fluid_cell>);
 
+mods.ic2.CanningMachine.removeCanningContainer(<ic2:itemcellempty>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2:itemmisc:101>, <ic2:itemmisc:352>, <ic2c_extras:universal_fluid_cell>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2:itemmisc:103>, <ic2:itemmisc:351>, <ic2c_extras:universal_fluid_cell>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2c_extras:universal_fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <ic2:tile.water>, <ic2c_extras:universal_fluid_cell>);
 mods.ic2.CanningMachine.addCanningRecipe(<ic2c_extras:universal_fluid_cell>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}), <ic2:tile.lava>, <ic2c_extras:universal_fluid_cell>);
-mods.gtclassic.FusionReactor.addRecipe(<ic2:itemmisc:108>, <ic2:itemmisc:202> * 10, <ic2c_extras:universal_fluid_cell>, 9994240, 100000000);
+//mods.gtclassic.FusionReactor.addRecipe(<ic2:itemmisc:108>, <ic2:itemmisc:202> * 10, <ic2c_extras:universal_fluid_cell>, 9994240, 100000000);
+mods.gtclassic.AssemblingMachine.addRecipe(<gtclassic:spray_can_empty>, <ic2c_extras:universal_fluid_cell>, <minecraft:redstone>, 1600);
+mods.gtclassic.IndustrialCentrifuge.addRecipe([<ic2:itemmisc:100> * 2], <ic2c_extras:universal_fluid_cell> * 2, <liquid:oxygen> * 1000, 74992);
+
+recipes.remove(<ic2:blockgenerator:1>);
+recipes.remove(<ic2:blockmachinelv2>);
+recipes.remove(<ic2:itemmisc:101>);
+recipes.remove(<ic2:itemmisc:103>);
+recipes.remove(<ic2:itemweedex>);
+recipes.remove(<ic2c_extras:fluidcanningmachine>);
+recipes.remove(<ic2:blockmachinelv:8>);
+recipes.remove(<ic2:blockmachinelv:11>);
+recipes.removeByRecipeName("ic2:shaped_tile.blockelectricwoodgasser_1488666364");
+
+recipes.addShaped(<ic2:blockgenerator:1>, [[<ore:blockGlass>, <ic2c_extras:universal_fluid_cell>, <ore:blockGlass>], [<ore:blockGlass>, <ic2c_extras:universal_fluid_cell>, <ore:blockGlass>], [<ore:ingotRefinedIron>, <ic2:blockgenerator>, <ore:ingotRefinedIron>]]);
+recipes.addShaped(<ic2:blockmachinelv2>, [[<ore:ingotRefinedIron>, <ic2c_extras:universal_fluid_cell>, <ore:ingotRefinedIron>], [<ore:ingotRefinedIron>, <ic2:blockmachinelv:4>, <ore:ingotRefinedIron>], [<ore:ingotRefinedIron>, <ic2:blockmachinelv:1>, <ore:ingotRefinedIron>]]);
+recipes.addShaped(<ic2:blockmachinelv2:1>, [[<ic2:itemmisc:257>, <ic2c_extras:universal_fluid_cell>, <ic2:itemmisc:257>], [<ic2:itemmisc:256>, <ic2:blockmachinelv:4>, <ic2:itemmisc:256>], [<ic2:itemmisc:257>, <ic2:blockmachinelv:2>, <ic2:itemmisc:257>]]);
+recipes.addShapeless(<ic2:itemmisc:101>, [<ic2c_extras:universal_fluid_cell>, <ic2:itemmisc:352>]);
+recipes.addShapeless(<ic2:itemmisc:103>, [<ic2c_extras:universal_fluid_cell>, <ic2:itemmisc:351>]);
+//recipe to change in gtcx
+recipes.addShaped(<ic2:itemweedex>, [[<ic2:itemmisc:150>], [<gtclassic:spray_can_empty>]]);
+recipes.addShaped(<ic2c_extras:fluidcanningmachine>, [[null, <ore:circuitBasic>, null], [<ic2c_extras:universal_fluid_cell>, <ic2:blockmachinelv:6>, <ic2c_extras:universal_fluid_cell>], [<ore:ingotTin>, <ic2:blockmachinelv2:5>, <ore:ingotTin>]]);
+recipes.addShaped(<ic2:blockmachinelv:8>, [[<ic2:itemcable:1>, null, <ic2:itemcable:1>], [<ic2:itemcable:1>, <ore:circuitBasic>, <ic2:itemcable:1>], [<ic2c_extras:universal_fluid_cell>, <ore:machineBlockBasic>, <ic2c_extras:universal_fluid_cell>]]);
+recipes.addShaped(<ic2:blockmachinelv:11>, [[<ic2c_extras:universal_fluid_cell>, <ore:circuitBasic>, <ic2c_extras:universal_fluid_cell>], [<ic2c_extras:universal_fluid_cell>, <ore:machineBlockBasic>, <ic2c_extras:universal_fluid_cell>], [<ic2:blockminingpipe>, <ic2:itemtreetap>, <ic2:blockminingpipe>]]);
